@@ -12,6 +12,8 @@ class ColorPickLogic: ObservableObject{
     
     @Published var pick = [[makingButtons]]()
     
+    let arrColor = ["red","orange", "yellow", "green", "lightBlue", "blue", "purple", "pink", "black"]
+    
 //intializng the rest of the players color pick
     
     init(){
@@ -29,6 +31,12 @@ class ColorPickLogic: ObservableObject{
             newPick.append(row)
         }
         pick = newPick
+    }
+    
+    func colorPick() -> Color{
+        switch(pick){
+            case pick[0][0]
+        }
     }
 }
 
