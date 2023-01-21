@@ -29,7 +29,8 @@ struct colorPick: View {
                         RoundedRectangle(cornerRadius: 5)
                             .frame(width: .infinity, height:.infinity)
                             .aspectRatio(1, contentMode: .fit)
-                            .foregroundColor(square.squareColor())
+                            .foregroundColor(Color("blue"))
+                        
                             
                     }
                 }
